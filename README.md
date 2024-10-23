@@ -22,18 +22,8 @@ Open Cypress test runner: npx cypress open
 Run tests via CLI: You can run all tests in headless mode with: npx cypress run  
 
 ## Folder Structure:
-cypress_tests/
-│
-├── cypress/
-│   ├── fixtures/           # Test data (e.g., mock responses)
-│   ├── e2e/                # Actual test cases
-│   │   └── MyFirstTest.cy.js   # Example test file for login functionality
-│   └── support/            # Reusable functions and commands
-│
-├── cypress.config.js       # Cypress configuration file
-├── package.json            # Project dependencies and scripts
-└── package-lock.json       # Project documentation
-unctions and commands │ ├── cypress.config.js # Cypress configuration file ├── package.json # Project dependencies and scripts └── package-lock.json # Project documentation
+cypress_tests/ │ ├── cypress/ │ ├── fixtures/ # Test data (e.g., mock responses) │ ├── e2e/ # Actual test cases │ │ └── MyFirstTest.cy.js # Example test file for login functionality │ └── support/ # Reusable functions and commands │ ├── cypress.config.js # Cypress configuration file ├── package.json # Project dependencies and scripts └── package-lock.json # Project documentation
+
 
 
 
