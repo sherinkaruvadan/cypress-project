@@ -5,19 +5,6 @@ Cypress: End-to-end testing framework
 JavaScript: Scripting language for test logic
 Mocha: Test runner (default with Cypress)
 
-Folder Structure:
------------------
-cypress_tests/
-│
-├── cypress/
-│   ├── fixtures/           # Test data (e.g., mock responses)
-│   ├── e2e/        # Actual test cases
-│   │   └── MyFirstTest.cy.js   # Example test file for login functionality          
-│   └── support/            # Reusable functions and commands
-│
-├── cypress.config.js       # Cypress configuration file
-├── package.json            # Project dependencies and scripts
-└── package.lock.json             # Project documentation
 
 Prerequisites:
 --------------
