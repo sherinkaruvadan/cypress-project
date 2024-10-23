@@ -1,6 +1,7 @@
 This repository contains automated end-to-end tests using Cypress for a web application. The goal of these tests is to ensure key functionalities of the cypress commands as expected.
 
-Technologies:  
+Technologies:
+-------------  
 Cypress: End-to-end testing framework  
 JavaScript: Scripting language for test logic  
 Mocha: Test runner (default with Cypress)  
